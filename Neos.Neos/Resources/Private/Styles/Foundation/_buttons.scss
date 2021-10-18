@@ -60,6 +60,10 @@
   &[disabled] {
     cursor: not-allowed;
     opacity: 0.65;
+
+    i {
+      cursor: not-allowed;
+    }
   }
 
   &[class^="fa-"],
