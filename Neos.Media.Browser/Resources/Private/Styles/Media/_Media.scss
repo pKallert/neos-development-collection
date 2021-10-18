@@ -118,6 +118,12 @@
 							}
 
 							&:hover {
+								background-color: $blue;
+
+								.count{
+									color: #fff;
+								}
+								
 								.neos-media-assetsource-icon {
 									filter: none;
 								}
