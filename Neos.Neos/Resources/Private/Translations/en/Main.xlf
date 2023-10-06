@@ -733,6 +733,9 @@
 			<trans-unit id="flashMessage.1222204027" xml:space="preserve">
 				<source>The entered username or password was wrong</source>
 			</trans-unit>
+			<trans-unit id="flashMessage.1318421560" xml:space="preserve">
+        <source>Successfully logged out</source>
+      </trans-unit>
 
 			<!-- Miscellaneous -->
 			<trans-unit id="masterPlugins.nodeTypeOnPageLabel" xml:space="preserve">
@@ -839,7 +842,7 @@
 			<trans-unit id="login.loggedOut.title" xml:space="preserve">
 				<source>Logged Out</source>
 			</trans-unit>
-			<trans-unit id="login.loggedOut.body" xml:space="preserve">
+			<trans-unit id="login.loggedOut.body.test" xml:space="preserve">
 				<source>Successfully logged out</source>
 			</trans-unit>
 			<trans-unit id="documentTree" xml:space="preserve">
