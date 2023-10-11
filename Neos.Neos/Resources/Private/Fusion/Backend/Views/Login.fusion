@@ -109,6 +109,7 @@ prototype(Neos.Neos:Component.Login.Form) < prototype(Neos.Fusion:Component) {
     Error = 'error'
   }
 
+
   renderer = afx`
     <Neos.Fusion.Form:Form form.target.action="authenticate" attributes.name="login">
         <Neos.Fusion.Form:Hidden field.name="lastVisitedNode" />
@@ -152,7 +153,7 @@ prototype(Neos.Neos:Component.Login.Form) < prototype(Neos.Fusion:Component) {
                         </script>
                         <div class="neos-tooltip-arrow"></div>
                         <div class="neos-tooltip-inner" role="alert">
-                            {I18n.id('flashMessage.' + flashMessage.code).value(flashMessage).package('Neos.Neos').source('Main')}
+                            {flashMessage.message}
                         </div>
                     </div>
                 </Neos.Fusion:Loop>
